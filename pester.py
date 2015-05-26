@@ -4,7 +4,7 @@ import time
 import requests
 
 endpoint = 'http://m.trulia.com/'
-timeoutSeconds = 60 
+timeoutSeconds = 3600 
 cookieName = 'redleader'
 userAgent = 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36'
 headers = {'user-agent' : userAgent}
