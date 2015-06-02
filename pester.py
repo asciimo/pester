@@ -41,4 +41,4 @@ while(True):
   timestamp = datetime.datetime.strftime(datetime.datetime.now(), "%c")
   f.write(timestamp + ' ' + result + '\n')
   f.close()
-  time.sleep(60)
+  time.sleep(timeoutSeconds)
